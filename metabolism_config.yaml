@@ -1,0 +1,29 @@
+# Sovereign System Metabolism Strategy Configuration
+
+strategic_focus:
+  - "AI/LLM/Agent/RAG technologies"
+  - "System Architecture & Automation"
+  - "Financial analysis & quantitative strategies"
+  - "Low-level debugging & incident reports"
+  - "Core philosophy & sovereign constitution evolution"
+
+noise_filters:
+  - "Trivial daily life notes"
+  - "Outdated temporary error logs (non-architectural)"
+  - "Low-quality prompt testing artifacts"
+  - "Merged/superseded project documentation"
+
+paths:
+  inbox: "Vault/00_Inbox"
+  vault: "Vault"
+  archive: "Vault/30_Archive"
+  graveyard: "Vault/30_Archive/Graveyard"
+  system_logs: "System/logs"
+  metabolism_log: "Vault/30_Archive/Metabolism_Log.md"
+
+settings:
+  auto_archive: true
+  similarity_threshold: 0.85
+  batch_size: 20
+  allowed_frontmatter: ["title", "tags", "aliases", "date", "status"]
+  sensitive_patterns: ["key", "token", "password", "secret", "sk-"]
